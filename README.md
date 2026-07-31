@@ -1,4 +1,3 @@
-<img width="514" height="626" alt="Снимок экрана — 2026-07-31 в 17 53 59" src="https://github.com/user-attachments/assets/3bf5be4b-fb3f-4ac0-b2d9-6ad762de68fc" />
 <h1 align="center">🛒 Smart Checkout — Касса самообслуживания</h1> <p align="center">Дипломный проект: настольное приложение-симулятор кассы самообслуживания</p> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat"/> <img src="https://img.shields.io/badge/Data-JSON-black?style=flat"/> <img src="https://img.shields.io/badge/status-completed-brightgreen"/> </p>
 
 **📖 О проекте**      
