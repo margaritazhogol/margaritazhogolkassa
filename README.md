@@ -42,11 +42,11 @@ smart-checkout/
 ├── screenshots/           # скриншоты для README
 └── README.md
 
-**▶️ Запуск**     
-bash
+▶️ Запуск
 git clone https://github.com/margaritazhogol/smart-checkout.git
 cd smart-checkout
 python main.py
+Требования: Python 3.8+ (используются только стандартные библиотеки, установка зависимостей не требуется).
 
 Требования: Python 3.8+ (используются только стандартные библиотеки, установка зависимостей не требуется).
 
