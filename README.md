@@ -36,11 +36,11 @@ Desktop-приложение на Python, имитирующее работу к
 
 **📁 Структура проекта**   
 smart-checkout/
-├── main.py              # основной код приложения
-├── inventory.json        # данные о складе (создаётся автоматически)
-├── receipts/              # сохранённые чеки (создаётся автоматически)
-├── screenshots/           # скриншоты для README
-└── README.md
+├── main.py              # основной код приложения      
+├── inventory.json        # данные о складе (создаётся автоматически)     
+├── receipts/              # сохранённые чеки (создаётся автоматически)     
+├── screenshots/           # скриншоты для README      
+└── README.md      
 
 ▶️ Запуск
 git clone https://github.com/margaritazhogol/smart-checkout.git
