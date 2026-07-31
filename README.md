@@ -34,13 +34,13 @@ Desktop-приложение на Python, имитирующее работу к
 Хранение данных	JSON
 Прочее	datetime (чеки), os (файловая система)
 
-**📁 Структура проекта**   
-smart-checkout/
+**📁 Структура проекта**        
+smart-checkout/            
 ├── main.py              # основной код приложения      
 ├── inventory.json        # данные о складе (создаётся автоматически)     
 ├── receipts/              # сохранённые чеки (создаётся автоматически)     
 ├── screenshots/           # скриншоты для README      
-└── README.md      
+└── README.md               
 
 ▶️ Запуск
 git clone https://github.com/margaritazhogol/smart-checkout.git
