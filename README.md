@@ -1,3 +1,4 @@
+<img width="514" height="626" alt="Снимок экрана — 2026-07-31 в 17 53 59" src="https://github.com/user-attachments/assets/3bf5be4b-fb3f-4ac0-b2d9-6ad762de68fc" />
 <h1 align="center">🛒 Smart Checkout — Касса самообслуживания</h1> <p align="center">Дипломный проект: настольное приложение-симулятор кассы самообслуживания</p> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat"/> <img src="https://img.shields.io/badge/Data-JSON-black?style=flat"/> <img src="https://img.shields.io/badge/status-completed-brightgreen"/> </p>
 
 **📖 О проекте**      
@@ -19,18 +20,16 @@ Desktop-приложение на Python, имитирующее работу к
 
 🖼️ **Скриншоты**     
 **Главное меню**     
-
+<img width="514" height="626" alt="Снимок экрана — 2026-07-31 в 17 53 59" src="https://github.com/user-attachments/assets/874b2039-6220-4439-a89d-1d5499b3296b" />
 
 **Витрина товаров и корзина**    
-
+<img width="895" height="649" alt="Снимок экрана — 2026-07-31 в 17 54 44" src="https://github.com/user-attachments/assets/38d25813-d2db-400e-8667-7bb4a0f09524" />
 
 **Чек об оплате**     
-
-
+<img width="496" height="504" alt="Снимок экрана — 2026-07-31 в 17 55 16" src="https://github.com/user-attachments/assets/214d3e7f-5bc4-4fe8-8a1a-7d45edbbfcda" />
 
 **Панель сотрудника — управление складом**     
-
-
+<img width="892" height="640" alt="Снимок экрана — 2026-07-31 в 17 55 54" src="https://github.com/user-attachments/assets/fa77e1d4-5a1c-413c-9f22-572dbe30fcf0" />
 
 **🛠️ Технологии**    
 **Компонент**	**Технология**
