@@ -1,4 +1,4 @@
-<h1 align="center">🛒 Smart Checkout — Касса самообслуживания</h1> <p align="center">Дипломный проект: настольное приложение-симулятор кассы самообслуживания</p> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat"/> <img src="https://img.shields.io/badge/Data-JSON-black?style=flat"/> <img src="https://img.shields.io/badge/status-completed-brightgreen"/> </p>
+<img width="514" height="626" alt="Снимок экрана — 2026-07-31 в 17 53 59" src="https://github.com/user-attachments/assets/edf02105-6c87-4cfa-844d-07258737160d" /><h1 align="center">🛒 Smart Checkout — Касса самообслуживания</h1> <p align="center">Дипломный проект: настольное приложение-симулятор кассы самообслуживания</p> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat"/> <img src="https://img.shields.io/badge/Data-JSON-black?style=flat"/> <img src="https://img.shields.io/badge/status-completed-brightgreen"/> </p>
 
 **📖 О проекте**      
 
@@ -19,13 +19,18 @@ Desktop-приложение на Python, имитирующее работу к
 
 🖼️ **Скриншоты**     
 **Главное меню**     
-<!-- ![Главное меню](screenshots/main_menu.png) -->
+![Uploading Снимок экрана — 2026-07-31 в 17.53.59.png…]()
+
 **Витрина товаров и корзина**    
-<!-- ![Витрина товаров](screenshots/catalog.png) -->
+![Uploading Снимок экрана — 2026-07-31 в 17.54.44.png…]()
+
 **Чек об оплате**     
-<!-- ![Чек](screenshots/receipt.png) -->
+![Uploading Снимок экрана — 2026-07-31 в 17.55.16.png…]()
+
+
 **Панель сотрудника — управление складом**     
-<!-- ![Панель сотрудника](screenshots/staff_panel.png) -->
+![Uploading Снимок экрана — 2026-07-31 в 17.55.54.png…]()
+
 
 **🛠️ Технологии**    
 **Компонент**	**Технология**
@@ -42,7 +47,7 @@ smart-checkout/
 ├── screenshots/           # скриншоты для README      
 └── README.md               
 
-**▶️ Запуск**
+**▶️ Запуск**         
 git clone https://github.com/margaritazhogol/smart-checkout.git      
 cd smart-checkout      
 python main.py      
