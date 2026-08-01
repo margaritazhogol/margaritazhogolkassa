@@ -8,7 +8,8 @@ Built as part of a diploma internship project.
 
 **Authors:** Margarita Zhogol, Egor Semkin         
 
-**✨ Features**        
+**✨ Features**  
+
 🛒 **Product catalog** with live search and product cards (name, price, stock level)          
 🧺 **Shopping cart** with automatic total recalculation          
 💳 **Checkout flow:** choose a payment method, generate and save a receipt to a file           
