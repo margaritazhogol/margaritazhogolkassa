@@ -32,8 +32,8 @@ Built as part of a diploma internship project.
 <img width="892" height="640" alt="Снимок экрана — 2026-07-31 в 17 55 54" src="https://github.com/user-attachments/assets/fa77e1d4-5a1c-413c-9f22-572dbe30fcf0" />         
   
 **🛠️ Tech stack**         
-<u>**Component**<u>______|_____<u>**Technology**<u>        
-<u>Language<u>___________|_____<u>Python 3<u>         
+<u>**Component**<u>______|_____<ins>**Technology**<ins>      
+<u>Language<u>___________|_____<ins>Python 3<ins>         
 <u>Interface<u>__________|_____<u>Tkinter, ttk (Treeview, Canvas + Scrollbar)<u>          
 <u>Data storage<u>_______|_____<u>JSON<u>         
 **<u>Other<u>**__________|_____**<u>datetime (receipts), os (filesystem)<u>**          
