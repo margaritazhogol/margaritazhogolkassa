@@ -33,7 +33,7 @@ Built as part of a diploma internship project.
   
 **🛠️ Tech stack**         
 **Component**	              **Technology**        
-Language	                     Python 3         
+Language                       Python 3         
 Interface	         Tkinter, ttk (Treeview, Canvas + Scrollbar)          
 Data storage	                  JSON         
 Other	             datetime (receipts), os (filesystem)          
