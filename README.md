@@ -1,64 +1,69 @@
-<h1 align="center">🛒 Smart Checkout — Касса самообслуживания</h1> <p align="center">Дипломный проект: настольное приложение-симулятор кассы самообслуживания</p> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat"/> <img src="https://img.shields.io/badge/Data-JSON-black?style=flat"/> <img src="https://img.shields.io/badge/status-completed-brightgreen"/> </p>
+<h1 align="center">🛒 Smart Checkout — Self-Service Checkout System</h1> <p align="center">Diploma project: a desktop simulation of a self-service checkout</p> <p align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Tkinter-GUI-3776AB?style=flat"/> <img src="https://img.shields.io/badge/Data-JSON-black?style=flat"/> <img src="https://img.shields.io/badge/status-completed-brightgreen"/> </p>
 
-**📖 О проекте**      
+**📖 About the project**       
 
-Desktop-приложение на Python, имитирующее работу кассы самообслуживания в магазине. Поддерживает два режима работы: **покупатель** (выбор товаров, корзина, оплата, чек) и **сотрудник** (управление складом через защищённую паролем панель).       
+A Python desktop application simulating a self-service checkout in a store. It supports two modes: customer (browsing products, cart, payment, receipt) and staff (inventory management through a password-protected panel).        
 
-Проект разработан в рамках дипломной практики.      
+Built as part of a diploma internship project.            
 
-**Авторы:** Маргарита Жоголь, Егор Семкин     
+**Authors:** Margarita Zhogol, Egor Semkin         
 
-**✨ Возможности**     
-🛒 **Витрина товаров** с живым поиском и карточками (название, цена, остаток на складе)     
-🧺 **Корзина** с автоматическим пересчётом суммы     
-💳 **Оформление заказа:** выбор способа оплаты, генерация и сохранение чека в файл      
-🔐 **Авторизация сотрудника** по паролю     
-📦 **Управление складом:** добавление и удаление товаров, отображение остатков цветовым индикатором (🟢 много / 🟡 мало / 🔴 почти нет)     
-💾 **Хранение данных** в JSON-файле — данные о складе сохраняются между запусками      
-🛡️ **Обработка ошибок:** защита от некорректного ввода, восстановление базовых данных при повреждении файла      
+**✨ Features**        
+🛒 **Product catalog** with live search and product cards (name, price, stock level)          
+🧺 **Shopping cart** with automatic total recalculation          
+💳 **Checkout flow:** choose a payment method, generate and save a receipt to a file           
+🔐 **Staff authorization** by password             
+📦 **Inventory management:** add/remove products, stock level shown with a color indicator (🟢 plenty / 🟡 low / 🔴 almost out)          
+💾 **Data persistence** in a JSON file — inventory data is preserved between runs           
+🛡️ **Error handling:** protection against invalid input, recovery of default data if the file gets corrupted           
 
-🖼️ **Скриншоты**     
-**Главное меню**     
-<img width="514" height="626" alt="Снимок экрана — 2026-07-31 в 17 53 59" src="https://github.com/user-attachments/assets/874b2039-6220-4439-a89d-1d5499b3296b" />
+**🖼️ Screenshots**         
 
-**Витрина товаров и корзина**    
+**Main menu**         
+<img width="514" height="626" alt="Снимок экрана — 2026-07-31 в 17 53 59" src="https://github.com/user-attachments/assets/874b2039-6220-4439-a89d-1d5499b3296b" />      
+
+**Product catalog and cart**        
 <img width="895" height="649" alt="Снимок экрана — 2026-07-31 в 17 54 44" src="https://github.com/user-attachments/assets/38d25813-d2db-400e-8667-7bb4a0f09524" />
 
-**Чек об оплате**     
-<img width="496" height="504" alt="Снимок экрана — 2026-07-31 в 17 55 16" src="https://github.com/user-attachments/assets/214d3e7f-5bc4-4fe8-8a1a-7d45edbbfcda" />
+**Receipt**       
+<img width="496" height="504" alt="Снимок экрана — 2026-07-31 в 17 55 16" src="https://github.com/user-attachments/assets/214d3e7f-5bc4-4fe8-8a1a-7d45edbbfcda" />        
 
-**Панель сотрудника — управление складом**     
-<img width="892" height="640" alt="Снимок экрана — 2026-07-31 в 17 55 54" src="https://github.com/user-attachments/assets/fa77e1d4-5a1c-413c-9f22-572dbe30fcf0" />
+**Staff panel — inventory management**         
+<img width="892" height="640" alt="Снимок экрана — 2026-07-31 в 17 55 54" src="https://github.com/user-attachments/assets/fa77e1d4-5a1c-413c-9f22-572dbe30fcf0" />         
+  
+**🛠️ Tech stack**         
+**Component**	              **Technology**        
+Language	                     Python 3         
+Interface	         Tkinter, ttk (Treeview, Canvas + Scrollbar)          
+Data storage	                  JSON         
+Other	             datetime (receipts), os (filesystem)          
 
-**🛠️ Технологии**    
-**Компонент**	**Технология**
-Язык	Python 3
-Интерфейс	Tkinter, ttk (Treeview, Canvas + Scrollbar)
-Хранение данных	JSON
-Прочее	datetime (чеки), os (файловая система)
+**📁 Project structure**          
+margaritazhogolkassa/                
+├── kassa2.py           # main application code        
+├── inventory.json      # inventory data (created automatically)             
+├── receipts/           # saved receipts (created automatically)              
+├── screenshots/        # screenshots for the README                    
+└── README.md
 
-**📁 Структура проекта**        
-smart-checkout/            
-├── main.py              # основной код приложения      
-├── inventory.json        # данные о складе (создаётся автоматически)     
-├── receipts/              # сохранённые чеки (создаётся автоматически)     
-├── screenshots/           # скриншоты для README      
-└── README.md               
+**▶️ Getting started**                  
+bash            
+git clone https://github.com/margaritazhogol/margaritazhogolkassa.git           
+cd margaritazhogolkassa           
+python kassa2.py           
 
-**▶️ Запуск**         
-git clone https://github.com/margaritazhogol/smart-checkout.git      
-cd smart-checkout      
-python main.py      
-Требования: Python 3.8+ (используются только стандартные библиотеки, установка зависимостей не требуется).     
+**Requirements:** Python 3.8+ (only standard library modules are used, no extra dependencies to install).          
 
-Пароль сотрудника по умолчанию: 123456
+**Default staff password:** 123456            
 
-**🧪 Тестирование**
+**🧪 Testing**              
 
-В ходе разработки проверялись:
+The following was verified during development:          
 
-корректная и некорректная обработка ввода (цена, количество, поиск)       
-защита от продажи товара сверх остатка на складе      
-сохранение/восстановление данных при повреждении или отсутствии inventory.json       
-работа авторизации сотрудника        
-<p align="center">Python • Tkinter • 2026</p>
+correct and incorrect input handling (price, quantity, search)            
+protection against selling more stock than is available              
+data save/recovery if inventory.json is corrupted or missing           
+staff authorization flow               
+
+<p align="center">Python • Tkinter • 2026</p>               
+ 
