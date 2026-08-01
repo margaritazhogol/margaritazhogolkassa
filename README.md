@@ -61,10 +61,10 @@ python kassa2.py
 
 The following was verified during development:          
 
-correct and incorrect input handling (price, quantity, search)            
-protection against selling more stock than is available              
-data save/recovery if inventory.json is corrupted or missing           
-staff authorization flow               
+• correct and incorrect input handling (price, quantity, search)            
+• protection against selling more stock than is available              
+• data save/recovery if inventory.json is corrupted or missing           
+• staff authorization flow               
 
 <p align="center">Python • Tkinter • 2026</p>               
  
